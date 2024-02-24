@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cursive', Arial, sans-serif; /* Cambia la fuente a algo más estilizado */
+    background: #ffe0f0; /* Un suave color rosado para el fondo */
+}
+
+.contenedor {
+    background: white;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out; /* Animación suave al moverse */
+}
+
+p {
+    font-size: 2.5em; /* Un poco más grande para destacar */
+    margin-bottom: 30px;
+    color: #555; /* Un color oscuro pero suave para el texto */
+}
+
+button {
+    font-size: 1.2em;
+    padding: 15px 30px;
+    margin: 0 20px;
+    border: none;
+    border-radius: 50px; /* Hace los botones más redondeados */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Animación para color y transform */
+}
+
+button:hover {
+    background-color: #ffc0cb; /* Un rosado más claro para el hover */
+    transform: scale(1.1); /* Hace el botón ligeramente más grande al pasar el mouse */
+}
+
+#yesBtn {
+    color: white;
+    background-color: #ff4081; /* Un rosa más intenso para el botón de sí */
+    box-shadow: 0 5px 15px rgba(255, 64, 129, 0.4); /* Sombra para darle profundidad */
+}
+
+#noBtn {
+    color: white;
+    background-color: #ff4081; /* Usar el mismo color que el botón de sí para mantener la armonía */
+    position: relative;
+    box-shadow: 0 5px 15px rgba(255, 64, 129, 0.4); /* Sombra para darle profundidad */
+}
